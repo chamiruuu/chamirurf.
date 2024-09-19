@@ -1,0 +1,44 @@
+@import url("./fonts.css");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.centerText {
+  font-size: 180px;
+  font-weight: 500;
+  font-family: "rude";
+  color: whitesmoke;
+  text-align: center;
+}
+
+.secondaryText {
+  /* color: #47b49d; */
+  color: whitesmoke;
+  position: absolute;
+  bottom: 0.6rem;
+  font-size: 2rem;
+  font-family: NanumBrushScript;
+}
+
+.social {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  gap: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.githubLink {
+  text-decoration: none;
+  color: inherit;
+  cursor: none;
+}
